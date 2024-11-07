@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int slices = 0; //number of slices
+    int present_students; //number of present students
+    int excess = 0; //number of excess slices
+    string result = ""; //final result to be evaluated later
+
+    //input value for cake slices
+    cout << "Enter number of cake slices: ";
+    cin >> slices;
+
+    //input value for present students
+    cout << "Enter number of present student(s): ";
+    cin >> present_students;
+
+    /*
+        Evaluate the result. If the excess if 0 then it is
+        exactly distributed. Otherwise, there is an excess greater than 0
+    */
+    excess = slices - present_students;
+
+    //excluding the bracket since only a single line of code will be executed
+    if(excess == 0)
+        result = "Exact for all\n"; //final result if the excess is 0
+    else
+        result = "Excess " + to_string(excess) + " slice\n"; //final result if the excess is > 0
+
+    //display the final result. Also adding a pre-line break for readability
+    cout << "\n" << result;
+
+    return 0;
+}
