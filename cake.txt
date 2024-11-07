@@ -28,7 +28,7 @@ int main()
     if(excess == 0)
         result = "Exact for all\n"; //final result if the excess is 0
     else
-        result = "Excess " + to_string(excess) + " slice\n"; //final result if the excess is > 0
+        result = "Excess " + to_string(excess) + " slices\n"; //final result if the excess is > 0
 
     //display the final result. Also adding a pre-line break for readability
     cout << "\n" << result;
