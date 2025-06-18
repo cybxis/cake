@@ -28,7 +28,7 @@ GI6wq/5WNG8Dj6iOBmgvE6mWBvpVGjiH5fYwI9JUlCGzvhFCXCRJUQEQ3EDWLQLqcb6wlSZThTW9
 		</md:KeyDescriptor>
 		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
 		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
-		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://scaleft.cybxisbb.me/app/trial-7975689_scaleft_1/exksft1xd4KIkpmUN697/sso/saml"/>
-		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://scaleft.cybxisbb.me/app/trial-7975689_scaleft_1/exksft1xd4KIkpmUN697/sso/saml"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cybxis.okta.com@scaleft.cybxisbb.me/app/trial-7975689_scaleft_1/exksft1xd4KIkpmUN697/sso/saml"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cybxis.okta.com@scaleft.cybxisbb.me/app/trial-7975689_scaleft_1/exksft1xd4KIkpmUN697/sso/saml"/>
 	</md:IDPSSODescriptor>
 </md:EntityDescriptor>
