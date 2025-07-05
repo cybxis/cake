@@ -28,7 +28,7 @@ GI6wq/5WNG8Dj6iOBmgvE6mWBvpVGjiH5fYwI9JUlCGzvhFCXCRJUQEQ3EDWLQLqcb6wlSZThTW9
 		</md:KeyDescriptor>
 		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
 		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
-		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="javascript:alert(1)"/>
-		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="javascript:alert(1)"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="\"><script>alert(1)</script>"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="\"><script>alert(1)</script>"/>
 	</md:IDPSSODescriptor>
 </md:EntityDescriptor>
