@@ -1,0 +1,22 @@
+{
+  "issuer": "https://example.com",
+  "authorization_endpoint": "https://zeh8bz7r4xxz12gmhq3gr28ck3qvek.oastify.com/oauth2/authorize",
+  "token_endpoint": "https://zeh8bz7r4xxz12gmhq3gr28ck3qvek.oastify.com/oauth2/token",
+  "jwks_uri": "https://zeh8bz7r4xxz12gmhq3gr28ck3qvek.oastify.com/oauth2/jwks",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "id_token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ]
+}
