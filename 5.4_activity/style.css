@@ -1,0 +1,41 @@
+/* Page background */
+body {
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    background-color: #4CAF50; 
+    font-family: Verdana, sans-serif; /* Your choice */
+    border: 2px dotted blue;
+    padding: 10px 15px;
+    width: 250px;
+    margin: 0 auto 20px auto; 
+}
+
+/* Paragraph style */
+p {
+    text-align: justify;
+    background-color: hsl(200, 70%, 90%); 
+    font-style: italic;
+    padding: 20px;
+    border-left: 3px solid black;
+    border-right: 3px dashed black;
+    border-top: 3px dotted black;
+    border-bottom: 3px double black;
+    width: 500px;
+    margin: auto;
+}
+
+/* Span style */
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 100, 50);
+	margin-left: 2px;
+	margin-right: 5px;
+}
