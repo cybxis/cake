@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="author" content="Name Here">
+    <meta name="keywords" content="Dance, Party, CSS, Position">
+    <meta name="revised" content="17-07-2025">
+    <title>CSS position</title>
+	<style>
+		body {
+		  font-family: fantasy;
+		  color: rgb(199, 177, 14);
+		}
+		
+		#landscape {
+		  position: absolute;
+		  top: 20px;
+		  left: 10px;
+		  width: 250px;
+		  z-index: 1;
+		}
+
+		#winston {
+		  position: absolute;
+		  top: 150px;
+		  left: 20px;
+		  width: 40px;
+		  height: 40px;
+		  z-index: 2;
+		}
+
+		#hopper {
+		  position: absolute;
+		  top: 30px;
+		  left: 200px;
+		  width: 50px;
+		  z-index: 3;
+		}
+
+		h1 {
+		  position: fixed;
+		  top: 30px;
+		  left: 20px;
+		  z-index: 4;
+		}
+
+		#song {
+		  position: relative;
+		  top: 220px;
+		}
+  </style>
+  </head>
+  <body>
+    <h1>Dance Party</h1>
+
+    <img 
+      src="fields-of-grain.png" 
+      id="landscape">
+    <img 
+      src="Hopper-jumping.gif" 
+      id="hopper">
+    <img 
+      src="Winston.png" 
+      id="winston">
+
+    <div id="song">
+      <h3>Jamming to "Fields of Gold" by Sting</h3>
+      <p>
+        You'll remember me when the west wind moves<br>
+        Upon the fields of barley<br>
+        You'll forget the sun in his jealous sky<br>
+        As we walk in fields of gold
+      </p>
+
+      <p>
+        So she took her love<br>
+        For to gaze awhile<br>
+        Upon the fields of barley<br>
+        In his arms she fell as her hair came down<br>
+        Among the fields of gold
+      </p>
+
+      <p>
+        Will you stay with me, will you be my love<br>
+        Among the fields of barley<br>
+        We'll forget the sun in his jealous sky<br>
+        As we lie in fields of gold
+      </p>
+    </div>
+  </body>
+</html>
